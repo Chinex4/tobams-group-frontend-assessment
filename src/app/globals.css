@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-nunito);
+
+  --color-primary: #571244;
+  --color-primary-dark: #2c0922;
+  --color-primary-light: #8f6182;
+  --color-light-bg: #57124418;
+  --color-accent-light: #ef435333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #171717;
+}
